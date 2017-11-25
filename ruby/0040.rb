@@ -14,4 +14,5 @@ n.times do
 
   puts words.join(',')
   puts four_words.join(',')
+  
 end
