@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # 単一入力
 gets.chomp!
 
