@@ -10,8 +10,6 @@ b.times do
   t << gets.chomp!.to_i
 end
 
-
-
 q.times do
   x = gets.chomp!.to_i
   _ss = s.map{ |ss| x - ss }
@@ -21,7 +19,6 @@ q.times do
   _tt = t.map{ |tt| x - tt }
   t_fu = _tt.select(&:negative?).max
   t_sei= _tt.select(&:positive?).min
-
 
   pp = []
   unless s_fu.nil? || t_fu.nil?
