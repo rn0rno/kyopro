@@ -29,3 +29,8 @@ end
 # 2変数
 while (x, h = gets.to_f, gets.to_f) != [0, 0]
 end
+
+# m 個の tuple を直接 array に入れる
+array = m.times.map do
+  gets.split.map(&:to_i)
+end
